@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    display: flex;
+    overflow: hidden;
+
+}
+
+.carre1,
+.carre2,
+.carre3,
+.carre4 {
+    background-color: #975656;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+
+}
